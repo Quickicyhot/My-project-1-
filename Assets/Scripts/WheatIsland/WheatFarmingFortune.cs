@@ -43,7 +43,7 @@ public class WheatFarmingFortune : MonoBehaviour
 
     public void WheatFarmingFortuneCostTxT()
     {
-        wheatFarmingFortuneCostTxT.text = "" + wheatFarmingFortuneCost;
+        wheatFarmingFortuneCostTxT.text = "EWheat" + wheatFarmingFortuneCost;
         
     }
     public void WheatFarmingFortuneLevelTxT()
