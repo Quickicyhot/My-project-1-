@@ -43,7 +43,7 @@ public class WheatRng : MonoBehaviour
 
     public void EnchantedWheatRngText()
     {
-        enchantedWheatRngText.text = "Enchanted Wheat " + amountOfEnchantedWheat;
+        enchantedWheatRngText.text = "Amount of Enchanted Wheat " + amountOfEnchantedWheat;
     }
 
     public void ShowText()

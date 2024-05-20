@@ -23,7 +23,7 @@ public class StoneHoeManagerr : MonoBehaviour
     void Start()
     {
         stoneHoeCost = 500;
-        stoneHoeCost1 = "Cost: ";
+        stoneHoeCost1 = "Cost; ";
         stonehoeamountofclicks = 1;
         stonehoecounter = 1;
 
