@@ -32,7 +32,9 @@ public class WoodenHoeManager : MonoBehaviour
         woodenhoemoney = clickingmechanic1.wheat;
         woodenHoeText.text = woodenHoeCost1 + woodenHoeCost;
         woodenHoeCounter1.text = "" + woodenHoeCounter;
-
+        WheatDataSaver.woodenHoeCost = woodenHoeCost1;
+        WheatDataSaver.woodenhoeamountofclicks = woodenhoeamountofclicks;
+        WheatDataSaver.woodenHoeCounter = woodenHoeCounter;
     }
 
     public void woodenHoe()
