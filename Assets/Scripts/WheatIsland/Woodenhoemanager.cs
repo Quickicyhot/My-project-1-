@@ -21,7 +21,7 @@ public class WoodenHoeManager : MonoBehaviour
     {
         woodenhoeamountofclicks = 0;
         woodenHoeCost = 50;
-        woodenHoeCost1 = "Cost; ";
+        woodenHoeCost1 = "Cost: ";
         
     }
 
